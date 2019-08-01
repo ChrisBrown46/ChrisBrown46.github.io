@@ -1,0 +1,15 @@
+.about {
+  // .image-container {
+  //   display: flex;
+  //   place-content: center;
+  // }
+
+  .image-container>img {
+    display: block;
+    width: 90%;
+    /* Size of image */
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+  }
+}
