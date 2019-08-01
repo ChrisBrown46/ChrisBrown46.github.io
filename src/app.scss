@@ -45,8 +45,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 1000px;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 80vh;
 }
 
 .column {
@@ -54,6 +55,11 @@ body {
   flex-wrap: wrap;
   min-width: 50%;
   align-content: center;
+}
+
+.padded {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .row {
