@@ -1,3 +1,5 @@
+@import "./colors";
+
 html,
 body {
   font-family: "Verdana",
@@ -5,11 +7,11 @@ body {
   margin: 0;
   line-height: 1.5;
   letter-spacing: 0.25rem;
-  color: #333333;
+  color: $color-black;
 }
 
 ::selection {
-  background-color: #ff7562;
+  background-color: $color-red;
 }
 
 .centered {
@@ -88,7 +90,7 @@ h1::before {
   content: "";
   width: calc((100vw * 3 / 12) - 2rem);
   max-width: 218px;
-  background: #ff7562;
+  background: $color-red;
   height: 0.4rem;
   transform: translate(180deg);
   position: absolute;

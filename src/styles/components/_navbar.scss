@@ -1,11 +1,12 @@
+@import "../colors";
+
 .navbar {
   position: sticky;
   display: flex;
   overflow: hidden;
   flex-wrap: wrap;
   width: 100vw;
-  box-shadow: 0 0.125rem 0.3125rem 0 rgba(0, 0, 0, 0.16),
-    0 0.125rem 0.625rem 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0.125rem 0.3125rem 0 $color-gray;
   justify-content: space-between;
 
   .left {
@@ -41,7 +42,7 @@
   }
 
   .button:hover {
-    color: grey;
+    color: $color-gray;
     font-size: 1.3rem;
   }
 
