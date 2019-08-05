@@ -1,0 +1,16 @@
+.resume {
+  .one-third {
+    min-width: calc(33.33% - 1rem);
+    padding: 0.5rem;
+  }
+
+  .two-third {
+    min-width: calc(66.66% - 1rem);
+    padding: 0.5rem;
+  }
+
+  .card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+}
