@@ -3,7 +3,6 @@
 .navbar {
   position: sticky;
   display: flex;
-  overflow: hidden;
   flex-wrap: wrap;
   width: 100vw;
   box-shadow: 0 0.125rem 0.3125rem 0 $color-gray;
@@ -53,7 +52,7 @@
 }
 
 /* Widescreen view */
-@media screen and (min-width: 708px) {
+@media screen and (min-width: $size-tablet) {
 
   .navbar {
     .left {
@@ -67,7 +66,7 @@
 }
 
 /* Mobile view */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: $size-mobile) {
 
   .navbar {
     .hidden {
