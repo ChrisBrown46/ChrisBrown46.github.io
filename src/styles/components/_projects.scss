@@ -1,23 +1,26 @@
+$transition-time: 1.25s;
+
 .projects {
   .card {
     width: 60vw;
-    height: 15vh;
+    height: 15vw;
     margin: 3rem;
-    border: 3px solid red;
+    box-shadow: 0.125rem 0.125rem 0.3125rem 0.125rem rgba(175, 175, 175, 0.5);
+  }
+
+  .card:hover>img {
+    transform: translate(30vw);
+    transition: transform $transition-time;
   }
 
   img {
-    height: 100%;
-    /* Size of image */
-    max-width: 33.33%;
+    position: absolute;
+    height: 15vw;
+    width: 30vw;
     margin: auto;
 
-    transform: translate(0%);
-    transition: transform 1s;
-  }
-
-  img:hover {
-    transform: translate(100%);
-    transition: transform 1s;
+    transform: translate(0);
+    transition: transform $transition-time;
+    background-color: $color-gray;
   }
 }
