@@ -9,6 +9,9 @@ body {
   letter-spacing: 0.25rem;
   color: $color-black;
   overflow-x: hidden;
+  background-image: url("../../static/shapes.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 ::selection {
