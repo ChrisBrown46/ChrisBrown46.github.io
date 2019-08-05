@@ -1,16 +1,28 @@
 .resume {
-  .one-third {
-    min-width: calc(33.33% - 1rem);
-    padding: 0.5rem;
+  img {
+    float: left;
+    width: 90%;
+    /* Size of image */
+    max-width: 200px;
+    height: auto;
+    margin: auto;
   }
 
-  .two-third {
-    min-width: calc(66.66% - 1rem);
-    padding: 0.5rem;
+  h3 {
+    position: relative;
+    left: -6.5%;
   }
 
-  .card {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  .red {
+    color: $color-red;
+  }
+
+  .red::selection {
+    background-color: $color-black;
+  }
+
+  p {
+    position: relative;
+    left: 2rem;
   }
 }

@@ -93,7 +93,21 @@ h1::before {
   max-width: 218px;
   background: $color-red;
   height: 0.4rem;
-  transform: translate(180deg);
+  position: absolute;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+}
+
+h2::before {
+  content: "";
+  width: 8.33vw;
+  max-width: 218px;
+  background: $color-red;
+  height: 0.4rem;
+  transform: translate(-100%, 1.5rem);
   position: absolute;
 }
 
