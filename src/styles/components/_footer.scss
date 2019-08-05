@@ -11,6 +11,7 @@
   .row {
     display: flex;
     height: 100%;
+    max-width: $size-tablet;
     place-content: center;
   }
 
@@ -19,12 +20,19 @@
     text-decoration: none;
   }
 
+  .icon {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+
   .row:hover .icon {
     opacity: 0.3;
+    transition: opacity 0.5s;
   }
 
   .row .icon:hover {
     opacity: 1;
+    transition: opacity 0.5s;
   }
 
   .icon {

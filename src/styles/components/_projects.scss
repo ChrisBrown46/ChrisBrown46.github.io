@@ -1,0 +1,23 @@
+.projects {
+  .card {
+    width: 60vw;
+    height: 15vh;
+    margin: 3rem;
+    border: 3px solid red;
+  }
+
+  img {
+    height: 100%;
+    /* Size of image */
+    max-width: 33.33%;
+    margin: auto;
+
+    transform: translate(0%);
+    transition: transform 1s;
+  }
+
+  img:hover {
+    transform: translate(100%);
+    transition: transform 1s;
+  }
+}
