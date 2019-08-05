@@ -10,9 +10,11 @@ body {
   letter-spacing: 0.25rem;
   color: $color-black;
   overflow-x: hidden;
-  background-image: url("../../static/shapes.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
+
+  // background-image: url("../../static/shapes-enhanced.png");
+  // background-position: right;
+  // background-size: 30%;
+  // background-repeat: no-repeat;
 }
 
 ::selection {
