@@ -10,10 +10,6 @@
     padding-top: 1.75rem;
   }
 
-  a {
-    text-decoration: none;
-  }
-
   h1 {
     margin-bottom: 0;
   }
@@ -29,19 +25,11 @@
     white-space: nowrap;
   }
 
-  .red {
-    color: $color-red;
-  }
-
-  .red::selection {
-    background-color: $color-black;
-  }
-
   .download {
     margin-top: 0;
   }
 
-  @media screen and (max-width: $size-mobile) {
+  @media screen and (max-width: $size-tablet) {
     img {
       float: none;
     }

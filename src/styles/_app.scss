@@ -18,7 +18,7 @@ body {
 }
 
 ::selection {
-  background-color: $color-red;
+  background-color: $color-accent;
 }
 
 .centered {
@@ -81,6 +81,10 @@ body {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   letter-spacing: 0.1rem;
   margin-top: -0.4rem;
@@ -88,6 +92,14 @@ p {
 
 .bold {
   font-weight: 600;
+}
+
+.accent {
+  color: $color-accent;
+}
+
+.accent::selection {
+  background-color: $color-black;
 }
 
 h1 {
@@ -101,7 +113,7 @@ h1::before {
   width: 15vw;
   min-width: 10rem;
   max-width: 218px;
-  background: $color-red;
+  background: $color-accent;
   height: 0.4rem;
   position: absolute;
 }
@@ -115,7 +127,7 @@ h2::before {
   content: "";
   width: 8vw;
   max-width: 218px;
-  background: $color-red;
+  background: $color-accent;
   height: 0.4rem;
   transform: translate(-110%, 1.5rem);
   position: absolute;
