@@ -20,10 +20,6 @@ Thumbs.db
 # Ref: https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
 .idea
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # Dependencies
 node_modules
@@ -35,3 +31,17 @@ node_modules
 /dist
 /test/coverage-jest
 /test/coverage-karma
+
+# GitHub pages files
+/aurelia_project
+/src
+/types
+.editorconfig
+index.ejs
+favicon.ico
+webpack.config.js
+package.json
+package-lock.json
+tsconfig.json
+tslint.json
+README.md
