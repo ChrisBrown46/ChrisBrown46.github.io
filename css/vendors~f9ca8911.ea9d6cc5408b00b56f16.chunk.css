@@ -1,0 +1,16 @@
+/* cookie-400normal - latin */
+@font-face {
+  font-family: 'Cookie';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Cookie Regular '),
+    local('Cookie-Regular'),
+    url(/3f8024621c338f4bb1784c4a3c9940a5.woff2) format('woff2'), 
+    url(/2942a1c868ce5d267efc04844da3d18f.woff) format('woff'); /* Modern Browsers */
+}
+
+
+
+/*# sourceMappingURL=../vendors~f9ca8911.f8284a33ec88ffcea22e.bundle.map*/
