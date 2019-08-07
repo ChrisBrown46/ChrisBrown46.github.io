@@ -11,4 +11,5 @@ rmdir dist && ^
 git add . && ^
 git commit -m "GitHub pages update" && ^
 git push && ^
-git checkout website
+git checkout website && ^
+echo "Finished publishing site to master branch"
